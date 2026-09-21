@@ -8,10 +8,10 @@ data "aws_acm_certificate" "wildcard" {
   statuses = ["ISSUED"]
 }
 
-# url.tommykeyapp.com -> CloudFront
+# brevia.tommykeyapp.com -> CloudFront
 resource "aws_route53_record" "url_shortener" {
   zone_id = data.aws_route53_zone.main.zone_id
-  name    = "url.tommykeyapp.com"
+  name    = "brevia.tommykeyapp.com"
   type    = "A"
 
   alias {
