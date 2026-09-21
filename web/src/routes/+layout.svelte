@@ -5,13 +5,13 @@
 </script>
 
 <svelte:head>
-	<title>URL 短縮</title>
+	<title>brevia</title>
 </svelte:head>
 
 <div class="min-h-screen">
 	<header class="site-header">
 		<div class="mx-auto max-w-6xl px-4">
-			<a href="/" class="site-title dads-u-std-20B-150">URL 短縮</a>
+			<a href="/" class="site-title dads-u-std-20B-150">brevia</a>
 		</div>
 	</header>
 	<main class="mx-auto max-w-6xl px-4 py-8">
