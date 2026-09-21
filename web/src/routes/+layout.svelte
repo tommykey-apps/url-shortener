@@ -1,31 +1,37 @@
 <script lang="ts">
 	import '../app.css';
-	import { onMount } from 'svelte';
 
 	let { children } = $props();
-
-	onMount(() => {
-		document.documentElement.classList.add('dark');
-	});
 </script>
 
 <svelte:head>
-	<title>URL Shortener</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>URL 短縮</title>
 </svelte:head>
 
-<div class="min-h-screen bg-background text-foreground">
-	<header class="border-b border-border px-4 py-4 sm:px-6">
-		<div class="mx-auto max-w-3xl">
-			<h1 class="text-xl font-bold tracking-tight">
-				<span class="text-primary">/</span> URL Shortener
-			</h1>
+<div class="min-h-screen">
+	<header class="site-header">
+		<div class="mx-auto max-w-6xl px-4">
+			<a href="/" class="site-title dads-u-std-20B-150">URL 短縮</a>
 		</div>
 	</header>
-	<main class="mx-auto max-w-3xl px-4 py-6 sm:px-6 sm:py-8">
+	<main class="mx-auto max-w-6xl px-4 py-8">
 		{@render children()}
 	</main>
-	<footer class="border-t border-border px-4 py-4 text-center text-xs text-muted-foreground">
-		Go + SvelteKit + Lambda + API Gateway + Terraform
-	</footer>
 </div>
+
+<style>
+	.site-header {
+		border-bottom: 1px solid var(--color-neutral-solid-gray-200);
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	.site-title {
+		color: var(--color-neutral-solid-gray-900);
+		text-decoration: none;
+	}
+
+	.site-title:hover {
+		text-decoration: underline;
+	}
+</style>
