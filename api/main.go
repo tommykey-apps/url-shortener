@@ -20,7 +20,7 @@ import (
 // @version 1.0.0
 // @description URL短縮 + クリック計測サービスのAPI。登録時にDNS解決・Google Safe Browsing・AIによる安全性チェックを実施。
 
-// @host url.tommykeyapp.com
+// @host brevia.tommykeyapp.com
 // @BasePath /
 
 func setupMux() http.Handler {

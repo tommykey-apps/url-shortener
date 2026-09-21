@@ -31,7 +31,7 @@ URLを短くしてクリック数も計測できるサービス。登録時にUR
 | DynamoDB | 短縮URLの保存先。NoSQLなのでキー検索が速い |
 | S3 | フロントのビルド成果物 + Terraform state の保存 |
 | CloudFront | CDN。S3とAPI Gatewayの前に立ってHTTPS配信 |
-| Route 53 | カスタムドメイン (url.tommykeyapp.com) のDNS管理 |
+| Route 53 | カスタムドメイン (brevia.tommykeyapp.com) のDNS管理 |
 | ACM | SSL証明書 (*.tommykeyapp.com ワイルドカード、共有インフラで管理) |
 | IAM | LambdaにDynamoDBアクセス権限を付与 |
 | EventBridge | 日次の安全性再チェックスケジュール |

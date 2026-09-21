@@ -30,7 +30,7 @@ resource "aws_cloudfront_distribution" "frontend" {
   enabled             = true
   default_root_object = "index.html"
   price_class         = "PriceClass_200"
-  aliases             = ["url.tommykeyapp.com"]
+  aliases             = ["brevia.tommykeyapp.com"]
 
   # S3 origin (frontend)
   origin {

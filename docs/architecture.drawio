@@ -22,7 +22,7 @@
         </mxCell>
 
         <!-- CloudFront -->
-        <mxCell id="cf" value="Amazon CloudFront&#xa;url.tommykeyapp.com" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;labelBackgroundColor=none;sketch=0;fontStyle=1;fontSize=11;fillColor=#ED7100;fontColor=#000000;strokeColor=#ED7100;" vertex="1" parent="1">
+        <mxCell id="cf" value="Amazon CloudFront&#xa;brevia.tommykeyapp.com" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;labelBackgroundColor=none;sketch=0;fontStyle=1;fontSize=11;fillColor=#ED7100;fontColor=#000000;strokeColor=#ED7100;" vertex="1" parent="1">
           <mxGeometry x="250" y="280" width="60" height="60" as="geometry" />
         </mxCell>
 
