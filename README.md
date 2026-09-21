@@ -58,7 +58,7 @@ URL一覧はブラウザのlocalStorageで自分が作成したURLだけ表示�
 url-shortener/
 ├── api/          # GoのAPI（Lambda対応）
 │   └── safety/   # URL安全性チェック（Safe Browsing, AI, DNS）
-├── web/          # SvelteKitのフロント（shadcn-svelte）
+├── web/          # SvelteKit のフロント (デジタル庁デザインシステム準拠)
 ├── infra/        # Terraform（Lambda, API Gateway, DynamoDB, CloudFront 等）
 ├── docs/         # 構成図 (draw.io) + Swagger
 └── .github/      # GitHub Actions（CI/CD）
